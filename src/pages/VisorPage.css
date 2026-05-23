@@ -1,6 +1,6 @@
 .visor-page {
   min-height: 100vh;
-  background: var(--color-black);
+  background: var(--color-bg);
   padding: var(--space-md);
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@
 .visor-page__placeholder-text {
   font-family: var(--font-body);
   font-size: 0.95rem;
-  color: rgba(241, 250, 238, 0.6);
+  color: rgba(26, 26, 26, 0.6);
 }
 
 .visor-page__scanner-placeholder {
@@ -81,7 +81,7 @@
 .visor-page__scanner-placeholder h3 {
   font-family: var(--font-title);
   font-size: 1.3rem;
-  color: var(--color-white);
+  color: var(--color-text);
   text-transform: uppercase;
   margin: 0;
 }
@@ -92,7 +92,7 @@
   text-transform: uppercase;
   color: var(--color-gold);
   background: none;
-  border: 1px solid rgba(255, 183, 3, 0.3);
+  border: 1px solid rgba(197, 160, 89, 0.3);
   padding: 0.5rem 1rem;
   border-radius: var(--radius-sm);
   cursor: pointer;
@@ -100,6 +100,6 @@
 }
 
 .visor-page__scanner-retry:hover {
-  background: rgba(255, 183, 3, 0.1);
+  background: rgba(197, 160, 89, 0.1);
   border-color: var(--color-gold);
 }

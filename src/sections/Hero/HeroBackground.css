@@ -5,10 +5,59 @@
   z-index: 0;
 }
 
+/* ========== Imagen de fondo ========== */
+.hero-background__image {
+  position: absolute;
+  inset: 0;
+  z-index: -4;
+  background-image: url('/images/hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.85;
+}
+
+.hero-background__image-fade {
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 254, 0.88) 0%,
+    rgba(254, 254, 254, 0.88) 18%,
+    rgba(254, 254, 254, 0.50) 40%,
+    rgba(254, 254, 254, 0.15) 60%,
+    transparent 80%
+  );
+}
+
+.hero-background--reduced .hero-background__image,
+.hero-background--reduced .hero-background__image-fade {
+  display: none;
+}
+
 .hero-background--reduced .hero-background__gradient {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 50% 0%, var(--color-blue) 0%, var(--color-black) 60%);
+  background: radial-gradient(ellipse at 50% 0%, var(--color-blue) 0%, var(--color-bg) 60%);
+}
+
+/* Cuando hay foto de fondo, ocultar elementos abstractos que emborronan */
+.hero-background--photo .hero-background__gradient,
+.hero-background--photo .hero-background__spotlight,
+.hero-background--photo .hero-background__grain,
+.hero-background--photo .hero-background__brick-pattern,
+.hero-background--photo .hero-background__splash-layer {
+  display: none;
+}
+
+/* Nubes mucho más sutiles sobre foto */
+.hero-background--photo .hero-background__cloud {
+  opacity: 0.06;
+}
+
+.hero-background--photo .hero-background__watermark-text {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.02);
 }
 
 .hero-background__filters {
@@ -21,8 +70,8 @@
 .hero-background__brick-pattern {
   position: absolute;
   inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg width='40' height='20' viewBox='0 0 40 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h40v1H0zM0 10h20v1H0zM20 10h20v1H20z' fill='%23ffffff' fill-opacity='0.04'/%3E%3C/svg%3E");
-  opacity: 0.6;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='20' viewBox='0 0 40 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h40v1H0zM0 10h20v1H0zM20 10h20v1H20z' fill='%23000000' fill-opacity='0.04'/%3E%3C/svg%3E");
+  opacity: 0.25;
 }
 
 /* Clouds */
@@ -35,7 +84,7 @@
   position: absolute;
   border-radius: 50%;
   filter: blur(60px);
-  opacity: 0.25;
+  opacity: 0.12;
   animation: float 8s ease-in-out infinite;
 }
 
@@ -93,7 +142,7 @@
   font-family: var(--font-title);
   font-size: clamp(3.5rem, 14vw, 16rem);
   color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.04);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.03);
   letter-spacing: 0.08em;
   user-select: none;
   white-space: nowrap;
@@ -213,7 +262,7 @@
 .hero-background__gradient {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 50% 0%, var(--color-blue) 0%, var(--color-black) 60%);
+  background: radial-gradient(ellipse at 50% 0%, var(--color-blue) 0%, transparent 60%);
 }
 
 .hero-background__spotlight {

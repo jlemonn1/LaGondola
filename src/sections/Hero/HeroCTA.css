@@ -14,12 +14,12 @@
   align-items: center;
   gap: 0;
   padding: 6px;
-  background: rgba(11, 12, 16, 0.55);
+  background: rgba(254, 254, 254, 0.55);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 100px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255,255,255,0.04);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(0,0,0,0.04);
 }
 
 /* Botón principal (Pedir) */
@@ -46,7 +46,7 @@
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: rgba(241, 250, 238, 0.65);
+  color: rgba(26, 26, 26, 0.65);
   text-decoration: none;
   border-radius: 100px;
   transition: color 0.3s ease, background 0.3s ease;
@@ -55,7 +55,7 @@
 
 .hero-cta__item--sub:hover {
   color: var(--color-gold);
-  background: rgba(255, 183, 3, 0.08);
+  background: rgba(197, 160, 89, 0.08);
 }
 
 /* Separadores verticales */
@@ -63,7 +63,7 @@
   display: block;
   width: 1px;
   height: 22px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   margin: 0 2px;
   flex-shrink: 0;
 }
@@ -75,7 +75,7 @@
   gap: var(--space-xs);
   font-family: var(--font-body);
   font-size: 0.85rem;
-  color: var(--color-white);
+  color: var(--color-text);
   opacity: 0.7;
   letter-spacing: 0.04em;
 }
@@ -91,7 +91,7 @@
 
 /* ========== Scroll arrow ========== */
 .hero-cta__scroll {
-  color: var(--color-white);
+  color: var(--color-text);
   opacity: 0.7;
   animation: float 2.5s ease-in-out infinite;
   cursor: pointer;

@@ -1,6 +1,6 @@
 .graffiti-card {
   position: relative;
-  background-color: var(--color-gray);
+  background-color: var(--color-surface);
   border: 2px solid var(--color-gray-light);
   border-radius: var(--radius-md);
   padding: var(--space-md);
@@ -10,7 +10,7 @@
 
 .graffiti-card:hover {
   border-color: var(--color-gold);
-  box-shadow: 0 0 20px rgba(255, 183, 3, 0.2);
+  box-shadow: 0 0 20px rgba(197, 160, 89, 0.2);
   transform: translateY(-4px);
 }
 
@@ -20,7 +20,7 @@
 
 .graffiti-card--top:hover {
   border-color: var(--color-gold);
-  box-shadow: 0 0 25px rgba(230, 57, 70, 0.3);
+  box-shadow: 0 0 25px rgba(196, 30, 36, 0.3);
 }
 
 .graffiti-card__badge {
@@ -48,7 +48,7 @@
 .graffiti-card__title {
   font-family: var(--font-title);
   font-size: 1.25rem;
-  color: var(--color-white);
+  color: var(--color-text);
   letter-spacing: 0.05em;
   line-height: 1.2;
 }
@@ -70,7 +70,7 @@
 .graffiti-card__item {
   font-family: var(--font-body);
   font-size: 0.9rem;
-  color: var(--color-white);
+  color: var(--color-text);
   opacity: 0.85;
   position: relative;
   padding-left: 1rem;

@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--space-sm);
-  color: var(--color-white);
+  color: var(--color-text);
   font-family: var(--font-body);
   padding: var(--space-md);
   text-align: center;

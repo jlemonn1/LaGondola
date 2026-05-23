@@ -11,8 +11,8 @@
 }
 
 .tag--default {
-  background-color: var(--color-gray);
-  color: var(--color-white);
+  background-color: var(--color-surface);
+  color: var(--color-text);
   border-color: var(--color-gray-light);
 }
 

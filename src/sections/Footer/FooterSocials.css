@@ -10,9 +10,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: var(--color-gray);
+  background-color: var(--color-surface);
   border: 1px solid var(--color-gray-light);
-  color: var(--color-white);
+  color: var(--color-text);
   opacity: 0.8;
   transition: all 0.4s var(--ease-out-expo);
 }
@@ -20,7 +20,7 @@
 .footer-socials a:hover {
   color: var(--color-red);
   opacity: 1;
-  background-color: rgba(230, 57, 70, 0.1);
+  background-color: rgba(196, 30, 36, 0.1);
   border-color: var(--color-red);
   box-shadow: var(--glow-red);
   transform: scale(1.1);

@@ -11,7 +11,7 @@
 }
 
 .burger-modal {
-  background: var(--color-black);
+  background: var(--color-bg);
   border: 2px solid var(--color-gray-light);
   border-radius: var(--radius-lg);
   padding: var(--space-lg);
@@ -29,7 +29,7 @@
   right: 16px;
   background: none;
   border: none;
-  color: var(--color-white);
+  color: var(--color-text);
   font-size: 1.8rem;
   cursor: pointer;
   opacity: 0.6;
@@ -43,7 +43,7 @@
 .burger-modal__title {
   font-family: var(--font-title);
   font-size: 1.6rem;
-  color: var(--color-white);
+  color: var(--color-text);
   letter-spacing: 0.05em;
   margin-bottom: var(--space-xs);
 }
@@ -64,10 +64,10 @@
 .burger-modal__protein {
   flex: 1;
   padding: var(--space-sm);
-  background: var(--color-black);
+  background: var(--color-bg);
   border: 2px solid var(--color-gray-light);
   border-radius: var(--radius-md);
-  color: var(--color-white);
+  color: var(--color-text);
   font-family: var(--font-title);
   font-size: 1rem;
   letter-spacing: 0.05em;
@@ -92,10 +92,10 @@
   align-items: center;
   gap: var(--space-sm);
   padding: 0.6rem 0.8rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(0, 0, 0, 0.03);
   border: 1px solid var(--color-gray-light);
   border-radius: var(--radius-sm);
-  color: var(--color-white);
+  color: var(--color-text);
   cursor: pointer;
   transition: all 0.2s;
   text-align: left;
@@ -136,7 +136,7 @@
 
 .burger-modal__summary {
   font-size: 0.9rem;
-  color: var(--color-white);
+  color: var(--color-text);
   opacity: 0.8;
 }
 

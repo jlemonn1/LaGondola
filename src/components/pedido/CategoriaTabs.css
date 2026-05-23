@@ -14,7 +14,7 @@
   justify-content: center;
   background: none;
   border: none;
-  color: rgba(241, 250, 238, 0.5);
+  color: rgba(26, 26, 26, 0.5);
   font-family: var(--font-title);
   font-size: 1rem;
   cursor: pointer;
@@ -50,7 +50,7 @@
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-md);
-  color: var(--color-white);
+  color: var(--color-text);
   cursor: pointer;
   transition: all 0.3s var(--ease-out-expo);
   white-space: nowrap;

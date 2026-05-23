@@ -4,7 +4,7 @@
   justify-content: center;
   background: none;
   border: none;
-  color: var(--color-white);
+  color: var(--color-text);
   cursor: pointer;
   z-index: 1001;
   padding: 0.25rem;
@@ -67,7 +67,7 @@
 }
 
 .mobile-menu__icon {
-  color: var(--color-white);
+  color: var(--color-text);
   transition: color 0.3s ease, transform 0.3s ease;
 }
 

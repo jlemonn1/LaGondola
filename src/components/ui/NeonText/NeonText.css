@@ -15,8 +15,8 @@
 }
 
 .neon-text--white {
-  color: var(--color-white);
-  text-shadow: 0 0 4px rgba(244, 241, 234, 0.3), 0 0 12px rgba(244, 241, 234, 0.15);
+  color: var(--color-text);
+  text-shadow: 0 0 4px rgba(26, 26, 26, 0.3), 0 0 12px rgba(26, 26, 26, 0.15);
 }
 
 .neon-text--flicker {

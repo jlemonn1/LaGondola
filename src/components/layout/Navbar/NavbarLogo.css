@@ -19,7 +19,7 @@
   object-fit: contain;
   position: relative;
   z-index: 1;
-  filter: drop-shadow(0 0 4px rgba(230, 57, 70, 0.5));
+  filter: drop-shadow(0 0 4px rgba(196, 30, 36, 0.5));
 }
 
 .navbar-logo__pulse {
@@ -34,7 +34,7 @@
 .navbar-logo__text {
   font-family: var(--font-title);
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: var(--color-text);
   letter-spacing: 0.1em;
   display: none;
 }

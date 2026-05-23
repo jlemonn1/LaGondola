@@ -24,7 +24,7 @@
   gap: 0.3rem;
   font-family: var(--font-body);
   font-size: 0.8rem;
-  color: rgba(241, 250, 238, 0.6);
+  color: rgba(26, 26, 26, 0.6);
   background: var(--glass-bg);
   padding: 0.3rem 0.6rem;
   border-radius: var(--radius-sm);
@@ -40,7 +40,7 @@
   text-transform: uppercase;
   color: var(--color-gold);
   background: none;
-  border: 1px solid rgba(255, 183, 3, 0.3);
+  border: 1px solid rgba(197, 160, 89, 0.3);
   padding: 0.4rem 0.8rem;
   border-radius: var(--radius-sm);
   cursor: pointer;
@@ -48,7 +48,7 @@
 }
 
 .visor-display__reset:hover {
-  background: rgba(255, 183, 3, 0.1);
+  background: rgba(197, 160, 89, 0.1);
   border-color: var(--color-gold);
 }
 
@@ -79,7 +79,7 @@
 .visor-display__item-name {
   font-family: var(--font-title);
   font-size: 1.1rem;
-  color: var(--color-white);
+  color: var(--color-text);
   text-transform: uppercase;
 }
 
@@ -102,8 +102,8 @@
 .visor-display__item-details span {
   font-family: var(--font-body);
   font-size: 0.75rem;
-  color: rgba(241, 250, 238, 0.65);
-  background: rgba(255,255,255,0.04);
+  color: rgba(26, 26, 26, 0.65);
+  background: rgba(0, 0, 0,0.04);
   padding: 0.15rem 0.4rem;
   border-radius: var(--radius-sm);
   border: 1px solid var(--glass-border);
@@ -122,7 +122,7 @@
   justify-content: space-between;
   align-items: baseline;
   padding: var(--space-md);
-  background: rgba(230, 57, 70, 0.1);
+  background: rgba(196, 30, 36, 0.1);
   border: 2px solid var(--color-red);
   border-radius: var(--radius-md);
   box-shadow: var(--glow-red);
@@ -131,7 +131,7 @@
 .visor-display__total-label {
   font-family: var(--font-title);
   font-size: 1.2rem;
-  color: var(--color-white);
+  color: var(--color-text);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }

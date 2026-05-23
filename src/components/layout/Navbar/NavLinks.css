@@ -14,7 +14,7 @@
 .nav-links__link {
   font-family: var(--font-title);
   font-size: 1rem;
-  color: var(--color-white);
+  color: var(--color-text);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: 0.25rem 0;

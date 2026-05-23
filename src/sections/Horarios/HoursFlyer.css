@@ -1,5 +1,5 @@
 .hours-flyer {
-  background-color: var(--color-gray);
+  background-color: var(--color-surface);
   border: 3px solid var(--color-gray-light);
   border-radius: var(--radius-md);
   padding: var(--space-lg);
@@ -33,7 +33,7 @@
 .hours-flyer__title {
   font-family: var(--font-title);
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: var(--color-text);
   letter-spacing: 0.1em;
 }
 

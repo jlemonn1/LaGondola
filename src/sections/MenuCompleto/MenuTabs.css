@@ -29,8 +29,8 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: var(--color-bg);
+  color: var(--color-text);
   border: 2px solid var(--color-gray-light);
   border-radius: var(--radius-sm);
   cursor: pointer;
@@ -53,6 +53,6 @@
 }
 
 .menu-tabs__tab--active:hover {
-  color: var(--color-white);
+  color: var(--color-text);
   border-color: var(--color-red);
 }

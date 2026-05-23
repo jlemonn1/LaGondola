@@ -1,6 +1,6 @@
 .about {
   position: relative;
-  background-color: var(--color-black);
+  background-color: var(--color-bg);
   overflow: hidden;
 }
 
@@ -27,7 +27,7 @@
   font-family: var(--font-title);
   font-size: clamp(4rem, 12vw, 10rem);
   color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.03);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.03);
   letter-spacing: 0.15em;
   user-select: none;
   white-space: nowrap;

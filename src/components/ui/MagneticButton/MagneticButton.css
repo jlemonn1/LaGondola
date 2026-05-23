@@ -42,7 +42,7 @@
 
 .magnetic-btn--primary:hover {
   box-shadow: var(--glow-red);
-  border-color: rgba(230, 57, 70, 0.6);
+  border-color: rgba(196, 30, 36, 0.6);
 }
 
 .magnetic-btn--secondary {

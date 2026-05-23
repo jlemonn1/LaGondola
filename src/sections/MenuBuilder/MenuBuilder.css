@@ -20,7 +20,7 @@
 }
 
 .menu-builder__size-ticket {
-  background-color: var(--color-gray);
+  background-color: var(--color-surface);
   border: 2px dashed var(--color-gray-light);
   border-radius: var(--radius-sm);
   padding: var(--space-md);
@@ -40,7 +40,7 @@
 .menu-builder__size-name {
   font-family: var(--font-title);
   font-size: 1.1rem;
-  color: var(--color-white);
+  color: var(--color-text);
   letter-spacing: 0.05em;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .menu-builder__base-card {
-  background-color: var(--color-gray);
+  background-color: var(--color-surface);
   border-radius: var(--radius-md);
   padding: var(--space-md);
   border: 1px solid var(--color-gray-light);
@@ -100,7 +100,7 @@
 
 .menu-builder__base-items li {
   font-size: 0.95rem;
-  color: var(--color-white);
+  color: var(--color-text);
   opacity: 0.85;
   position: relative;
   padding-left: 1rem;
@@ -126,7 +126,7 @@
   font-family: var(--font-body);
   font-size: 1.25rem;
   font-style: italic;
-  color: var(--color-white);
+  color: var(--color-text);
   opacity: 0.8;
 }
 

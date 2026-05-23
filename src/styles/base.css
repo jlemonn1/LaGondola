@@ -17,8 +17,8 @@ html {
 
 body {
   font-family: var(--font-body);
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: var(--color-bg);
+  color: var(--color-text);
   line-height: 1.6;
   overflow-x: hidden;
   width: 100%;
@@ -67,7 +67,7 @@ ul, ol {
 }
 
 .glow-text-red {
-  text-shadow: 0 0 6px rgba(196, 30, 36, 0.6), 0 0 20px rgba(196, 30, 36, 0.3);
+  text-shadow: 0 0 6px rgba(196, 30, 36, 0.3), 0 0 20px rgba(196, 30, 36, 0.15);
 }
 
 .glass-border {
@@ -87,7 +87,7 @@ ul, ol {
 }
 
 .glass-border:hover::before {
-  opacity: 0.4;
+  opacity: 0.25;
 }
 
 /* Reduced motion */

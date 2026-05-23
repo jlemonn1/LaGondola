@@ -1,6 +1,6 @@
 .menu-card {
   position: relative;
-  background-color: var(--color-black);
+  background-color: var(--color-bg);
   border: 2px solid var(--color-gray-light);
   border-radius: var(--radius-md);
   padding: var(--space-md);
@@ -42,7 +42,7 @@
 .menu-card__name {
   font-family: var(--font-title);
   font-size: 1.15rem;
-  color: var(--color-white);
+  color: var(--color-text);
   letter-spacing: 0.05em;
   line-height: 1.2;
 }
@@ -71,7 +71,7 @@
 .menu-card__price-fam {
   font-family: var(--font-title);
   font-size: 0.9rem;
-  color: var(--color-white);
+  color: var(--color-text);
   opacity: 0.7;
   white-space: nowrap;
 }
@@ -84,7 +84,7 @@
 
 .menu-card__items li {
   font-size: 0.9rem;
-  color: var(--color-white);
+  color: var(--color-text);
   opacity: 0.8;
   position: relative;
   padding-left: 1rem;

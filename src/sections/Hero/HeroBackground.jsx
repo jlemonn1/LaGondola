@@ -43,7 +43,11 @@ const HeroBackground = ({ mouse = { x: 0, y: 0 } }) => {
   }
 
   return (
-    <div className="hero-background">
+    <div className="hero-background hero-background--photo">
+      {/* Capa 0: Imagen de fondo real */}
+      <div className="hero-background__image" aria-hidden="true" />
+      <div className="hero-background__image-fade" aria-hidden="true" />
+
       {/* SVG Filters */}
       <svg className="hero-background__filters" aria-hidden="true">
         <defs>
