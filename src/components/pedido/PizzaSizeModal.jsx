@@ -7,6 +7,12 @@ const PizzaSizeModal = ({ isOpen, onClose, onAdd, productKey }) => {
   const [selectedExtras, setSelectedExtras] = useState([]);
 
   const product = getPizzaByKey(productKey);
+
+  const price = useMemo(() => {
+    if (!product) return 0;
+    return calcPizzaPrice(product, size, selectedExtras);
+  }, [product, size, selectedExtras]);
+
   if (!isOpen || !product) return null;
 
   const toggleExtra = (key) => {
@@ -14,8 +20,6 @@ const PizzaSizeModal = ({ isOpen, onClose, onAdd, productKey }) => {
       prev.includes(key) ? prev.filter(k => k !== key) : [...prev, key]
     );
   };
-
-  const price = useMemo(() => calcPizzaPrice(product, size, selectedExtras), [product, size, selectedExtras]);
 
   const handleAdd = () => {
     onAdd({ productKey, size, extras: selectedExtras });

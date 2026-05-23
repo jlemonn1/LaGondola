@@ -60,7 +60,7 @@
 }
 
 .cart-item__qty button:hover {
-  color: var(--color-yellow);
+  color: var(--color-gold);
 }
 
 .cart-item__qty span {
@@ -73,7 +73,7 @@
 .cart-item__price {
   font-family: var(--font-title);
   font-size: 1rem;
-  color: var(--color-yellow);
+  color: var(--color-gold);
   min-width: 50px;
   text-align: right;
 }

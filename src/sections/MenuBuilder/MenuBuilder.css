@@ -33,7 +33,7 @@
 }
 
 .menu-builder__size-ticket:hover {
-  border-color: var(--color-yellow);
+  border-color: var(--color-gold);
   transform: rotate(-1deg);
 }
 
@@ -47,7 +47,7 @@
 .menu-builder__size-price {
   font-family: var(--font-title);
   font-size: 1.5rem;
-  color: var(--color-yellow);
+  color: var(--color-gold);
 }
 
 .menu-builder__proteins,
@@ -58,7 +58,7 @@
 .menu-builder__subheading {
   font-family: var(--font-title);
   font-size: 1.5rem;
-  color: var(--color-yellow);
+  color: var(--color-gold);
   letter-spacing: 0.1em;
   margin-bottom: var(--space-md);
   text-align: center;
@@ -110,7 +110,7 @@
   content: '•';
   position: absolute;
   left: 0;
-  color: var(--color-yellow);
+  color: var(--color-gold);
 }
 
 .menu-builder__cta {

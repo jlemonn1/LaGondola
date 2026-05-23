@@ -37,7 +37,7 @@
 }
 
 .magnetic-btn--primary .magnetic-btn__glow {
-  background: radial-gradient(circle at 50% 50%, rgba(230,57,70,0.4), transparent 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(196,30,36,0.4), transparent 70%);
 }
 
 .magnetic-btn--primary:hover {
@@ -47,16 +47,16 @@
 
 .magnetic-btn--secondary {
   background-color: transparent;
-  color: var(--color-yellow);
-  border-color: var(--color-yellow);
+  color: var(--color-gold);
+  border-color: var(--color-gold);
 }
 
 .magnetic-btn--secondary .magnetic-btn__glow {
-  background: radial-gradient(circle at 50% 50%, rgba(255,183,3,0.3), transparent 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(197,160,89,0.3), transparent 70%);
 }
 
 .magnetic-btn--secondary:hover {
-  background-color: var(--color-yellow);
+  background-color: var(--color-gold);
   color: var(--color-black);
   box-shadow: var(--glow-yellow);
 }

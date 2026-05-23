@@ -30,14 +30,14 @@
 
 .btn--secondary {
   background-color: transparent;
-  color: var(--color-yellow);
-  border-color: var(--color-yellow);
+  color: var(--color-gold);
+  border-color: var(--color-gold);
 }
 
 .btn--secondary:hover {
-  background-color: var(--color-yellow);
+  background-color: var(--color-gold);
   color: var(--color-black);
-  box-shadow: 0 0 15px var(--color-yellow);
+  box-shadow: 0 0 15px var(--color-gold);
 }
 
 .btn--outline {

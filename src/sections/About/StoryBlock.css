@@ -13,7 +13,7 @@
 }
 
 .story-block:nth-child(even) {
-  border-left-color: var(--color-yellow);
+  border-left-color: var(--color-gold);
 }
 
 .story-block:hover {

@@ -23,7 +23,7 @@
 }
 
 .categoria-tabs__arrow:hover {
-  color: var(--color-yellow);
+  color: var(--color-gold);
 }
 
 .categoria-tabs__scroll {
@@ -57,8 +57,8 @@
 }
 
 .categoria-tabs__tab:hover {
-  border-color: var(--color-yellow);
-  color: var(--color-yellow);
+  border-color: var(--color-gold);
+  color: var(--color-gold);
 }
 
 .categoria-tabs__tab--active {

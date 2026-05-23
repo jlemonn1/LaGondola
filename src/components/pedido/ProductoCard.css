@@ -96,5 +96,4 @@
   background: var(--color-gold);
   color: var(--color-black);
   box-shadow: 0 0 6px rgba(197, 160, 89, 0.5);
-  pointer-events: none;
 }

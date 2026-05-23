@@ -31,7 +31,7 @@
 }
 
 .pedido-navbar__back:hover {
-  color: var(--color-yellow);
+  color: var(--color-gold);
 }
 
 .pedido-navbar__brand {
@@ -50,9 +50,9 @@
 .pedido-navbar__title {
   font-family: var(--font-title);
   font-size: 1.25rem;
-  color: var(--color-yellow);
+  color: var(--color-gold);
   letter-spacing: 0.1em;
-  text-shadow: 0 0 6px rgba(255,183,3,0.4);
+  text-shadow: 0 0 6px rgba(197,160,89,0.4);
 }
 
 .pedido-navbar__cart {
@@ -66,7 +66,7 @@
 }
 
 .pedido-navbar__cart:hover {
-  color: var(--color-yellow);
+  color: var(--color-gold);
   transform: scale(1.1);
 }
 

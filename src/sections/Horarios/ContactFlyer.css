@@ -25,9 +25,9 @@
 }
 
 .contact-flyer__icon {
-  color: var(--color-yellow);
+  color: var(--color-gold);
   flex-shrink: 0;
-  filter: drop-shadow(0 0 6px rgba(255,183,3,0.3));
+  filter: drop-shadow(0 0 6px rgba(197,160,89,0.3));
 }
 
 .contact-flyer__title {

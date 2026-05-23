@@ -42,10 +42,10 @@
 .qr-modal__title {
   font-family: var(--font-title);
   font-size: 1.8rem;
-  color: var(--color-yellow);
+  color: var(--color-gold);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  text-shadow: 0 0 8px rgba(255,183,3,0.3);
+  text-shadow: 0 0 8px rgba(197,160,89,0.3);
 }
 
 .qr-modal__subtitle {
@@ -82,8 +82,8 @@
 .qr-modal__total-price {
   font-family: var(--font-title);
   font-size: 2rem;
-  color: var(--color-yellow);
-  text-shadow: 0 0 10px rgba(255,183,3,0.4);
+  color: var(--color-gold);
+  text-shadow: 0 0 10px rgba(197,160,89,0.4);
 }
 
 .qr-modal__actions {
@@ -126,6 +126,6 @@
 }
 
 .qr-modal__btn--secondary:hover {
-  border-color: var(--color-yellow);
-  color: var(--color-yellow);
+  border-color: var(--color-gold);
+  color: var(--color-gold);
 }

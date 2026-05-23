@@ -10,9 +10,9 @@
 }
 
 .contact-row__icon {
-  color: var(--color-yellow);
+  color: var(--color-gold);
   flex-shrink: 0;
-  filter: drop-shadow(0 0 4px rgba(255,183,3,0.2));
+  filter: drop-shadow(0 0 4px rgba(197,160,89,0.2));
 }
 
 .contact-row--link {
@@ -21,6 +21,6 @@
 }
 
 .contact-row--link:hover {
-  color: var(--color-yellow);
+  color: var(--color-gold);
   transform: translateX(4px);
 }

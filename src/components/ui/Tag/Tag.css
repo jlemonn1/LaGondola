@@ -17,9 +17,9 @@
 }
 
 .tag--accent {
-  background-color: var(--color-yellow);
+  background-color: var(--color-gold);
   color: var(--color-black);
-  border-color: var(--color-yellow);
+  border-color: var(--color-gold);
 }
 
 .tag--fire {

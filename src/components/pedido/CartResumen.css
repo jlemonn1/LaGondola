@@ -20,8 +20,8 @@
 .cart-resumen__price {
   font-family: var(--font-title);
   font-size: 1.8rem;
-  color: var(--color-yellow);
-  text-shadow: 0 0 8px rgba(255,183,3,0.4);
+  color: var(--color-gold);
+  text-shadow: 0 0 8px rgba(197,160,89,0.4);
 }
 
 .cart-resumen__cta {

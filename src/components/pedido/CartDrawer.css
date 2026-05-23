@@ -46,7 +46,7 @@
 .cart-drawer__title {
   font-family: var(--font-title);
   font-size: 1.4rem;
-  color: var(--color-yellow);
+  color: var(--color-gold);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -112,8 +112,8 @@
 }
 
 .cart-drawer__add-more:hover {
-  border-color: var(--color-yellow);
-  color: var(--color-yellow);
+  border-color: var(--color-gold);
+  color: var(--color-gold);
   background: rgba(255, 183, 3, 0.08);
 }
 

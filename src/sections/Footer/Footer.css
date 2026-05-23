@@ -50,7 +50,7 @@
 .footer__city {
   font-family: var(--font-title);
   font-size: 0.9rem;
-  color: var(--color-yellow);
+  color: var(--color-gold);
   opacity: 0.7;
   letter-spacing: 0.1em;
 }

@@ -54,7 +54,7 @@
 }
 
 .hero-cta__item--sub:hover {
-  color: var(--color-yellow);
+  color: var(--color-gold);
   background: rgba(255, 183, 3, 0.08);
 }
 
@@ -107,12 +107,12 @@
 .hero-cta__scroll-icon {
   width: 48px;
   height: 48px;
-  filter: drop-shadow(0 0 6px rgba(255,183,3,0.35));
+  filter: drop-shadow(0 0 6px rgba(197,160,89,0.35));
   transition: filter 0.3s ease;
 }
 
 .hero-cta__scroll:hover .hero-cta__scroll-icon {
-  filter: drop-shadow(0 0 12px rgba(255,183,3,0.6));
+  filter: drop-shadow(0 0 12px rgba(197,160,89,0.6));
 }
 
 /* ========== Responsive ========== */

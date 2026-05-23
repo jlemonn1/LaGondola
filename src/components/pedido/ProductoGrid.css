@@ -27,10 +27,10 @@
 .producto-grid__section-title {
   font-family: var(--font-title);
   font-size: 1.2rem;
-  color: var(--color-yellow);
+  color: var(--color-gold);
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid rgba(255, 183, 3, 0.25);
-  text-shadow: 0 0 6px rgba(255,183,3,0.2);
+  text-shadow: 0 0 6px rgba(197,160,89,0.2);
 }
