@@ -1,0 +1,185 @@
+.pizza-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-md);
+}
+
+.pizza-modal {
+  background: var(--color-black);
+  border: 2px solid var(--color-gray-light);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  max-width: 480px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: var(--shadow-xl);
+}
+
+.pizza-modal__close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  color: var(--color-white);
+  font-size: 1.8rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.pizza-modal__close:hover {
+  opacity: 1;
+}
+
+.pizza-modal__title {
+  font-family: var(--font-title);
+  font-size: 1.6rem;
+  color: var(--color-white);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.pizza-modal__desc {
+  font-size: 0.9rem;
+  color: var(--color-white);
+  opacity: 0.7;
+  margin-bottom: var(--space-md);
+}
+
+.pizza-modal__section {
+  margin-bottom: var(--space-md);
+}
+
+.pizza-modal__label {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--color-gold);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.05em;
+}
+
+.pizza-modal__sizes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-sm);
+}
+
+.pizza-modal__size-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: var(--space-sm);
+  background: var(--color-black);
+  border: 2px solid var(--color-gray-light);
+  border-radius: var(--radius-md);
+  color: var(--color-white);
+  cursor: pointer;
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.pizza-modal__size-btn--active {
+  border-color: var(--color-red);
+  box-shadow: var(--glow-red);
+}
+
+.pizza-modal__size-name {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+}
+
+.pizza-modal__size-price {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.pizza-modal__extras {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.pizza-modal__extra {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 0.5rem 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--color-gray-light);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pizza-modal__extra--selected {
+  border-color: var(--color-gold);
+  background: rgba(197, 160, 89, 0.08);
+}
+
+.pizza-modal__extra-name {
+  flex: 1;
+  font-size: 0.95rem;
+  color: var(--color-white);
+}
+
+.pizza-modal__extra-price {
+  font-family: var(--font-title);
+  color: var(--color-gold);
+  font-size: 0.95rem;
+}
+
+.pizza-modal__extra-note {
+  display: none;
+}
+
+.pizza-modal__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-gray-light);
+  margin-top: var(--space-sm);
+}
+
+.pizza-modal__total {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.pizza-modal__total-price {
+  color: var(--color-gold);
+  font-size: 1.4rem;
+}
+
+.pizza-modal__add {
+  font-family: var(--font-title);
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  padding: 0.6rem 1.2rem;
+  background: var(--color-red);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.3s var(--ease-out-back);
+  box-shadow: var(--glow-red);
+}
+
+.pizza-modal__add:hover {
+  transform: scale(1.05);
+  background: #e03036;
+}

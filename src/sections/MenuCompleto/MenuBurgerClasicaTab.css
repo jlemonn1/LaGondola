@@ -1,0 +1,14 @@
+.menu-burger-tab__subtitle {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--color-gold);
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: var(--space-md);
+  opacity: 0.9;
+}
+
+.menu-burger-tab__list {
+  max-width: 600px;
+  margin: 0 auto;
+}

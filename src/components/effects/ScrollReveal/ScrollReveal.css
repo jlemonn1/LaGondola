@@ -1,0 +1,15 @@
+.scroll-reveal {
+  opacity: 0;
+  transform: var(--sr-initial-transform);
+  transition:
+    opacity var(--sr-duration) var(--sr-easing) var(--sr-delay),
+    transform var(--sr-duration) var(--sr-easing) var(--sr-delay),
+    filter var(--sr-duration) var(--sr-easing) var(--sr-delay);
+  will-change: opacity, transform, filter;
+}
+
+.scroll-reveal--visible {
+  opacity: 1;
+  transform: var(--sr-final-transform);
+  filter: blur(0px);
+}

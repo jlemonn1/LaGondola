@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#C41E24" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#C41E24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Halo de luz -->
+  <circle cx="50" cy="22" r="30" fill="url(#halo)" />
+
+  <!-- Estructura del faro (base azul) -->
+  <path d="M38,30 L62,30 L66,80 L34,80 Z" fill="#0F2B5B" />
+
+  <!-- Rayas rojas -->
+  <path d="M38,30 L62,30 L64,45 L36,45 Z" fill="#C41E24" />
+  <path d="M36,45 L64,45 L65,60 L35,60 Z" fill="#C41E24" />
+  <path d="M35,60 L65,60 L66,80 L34,80 Z" fill="#C41E24" />
+
+  <!-- Rayas blancas (máscaras implícitas por las rojas, pero dibujamos explícito) -->
+  <rect x="38" y="30" width="24" height="7.5" fill="#F4F1EA" />
+  <rect x="36" y="45" width="28" height="7.5" fill="#F4F1EA" />
+  <rect x="35" y="60" width="30" height="6.67" fill="#F4F1EA" />
+
+  <!-- Re-dibujar rayas rojas sobre las blancas para el patrón diagonal -->
+  <!-- Patrón diagonal simple: triángulos en los bordes -->
+  <path d="M38,30 L50,30 L46,37.5 L38,37.5 Z" fill="#C41E24" />
+  <path d="M62,30 L62,37.5 L54,37.5 L50,30 Z" fill="#C41E24" />
+
+  <path d="M36,45 L44,45 L40,52.5 L36,52.5 Z" fill="#C41E24" />
+  <path d="M56,45 L64,45 L64,52.5 L60,52.5 Z" fill="#C41E24" />
+
+  <path d="M35,60 L42,60 L38,66.67 L35,66.67 Z" fill="#C41E24" />
+  <path d="M58,60 L65,60 L65,66.67 L62,66.67 Z" fill="#C41E24" />
+
+  <!-- Cúpula -->
+  <path d="M36,30 Q50,8 64,30 Z" fill="#C41E24" />
+
+  <!-- Punto de luz en la cúpula -->
+  <circle cx="50" cy="20" r="3" fill="#F4F1EA" />
+
+  <!-- Balconcito de la cúpula -->
+  <rect x="34" y="28" width="32" height="3" rx="1" fill="#0F2B5B" />
+</svg>

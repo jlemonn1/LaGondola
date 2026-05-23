@@ -1,0 +1,25 @@
+.menu-postres-tab__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.menu-postres-tab__list {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.menu-postres-tab__gofre-desc {
+  font-size: 0.85rem;
+  color: var(--color-white);
+  opacity: 0.7;
+  padding: var(--space-sm) 0;
+  text-align: center;
+  list-style: none;
+}
+
+.menu-postres-tab__gofre-extra {
+  color: var(--color-gold);
+  font-weight: 600;
+}

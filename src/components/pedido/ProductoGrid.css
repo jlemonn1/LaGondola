@@ -1,0 +1,36 @@
+.producto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+}
+
+.producto-grid__empty {
+  text-align: center;
+  padding: var(--space-xl) 0;
+  color: var(--color-gray-light);
+  font-family: var(--font-body);
+}
+
+.producto-grid__sections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.producto-grid__section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.producto-grid__section-title {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  color: var(--color-yellow);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(255, 183, 3, 0.25);
+  text-shadow: 0 0 6px rgba(255,183,3,0.2);
+}

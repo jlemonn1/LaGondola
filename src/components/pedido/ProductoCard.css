@@ -1,0 +1,100 @@
+.producto-card {
+  position: relative;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 0.75rem;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s ease;
+  min-height: auto;
+}
+
+.producto-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.producto-card__left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  flex: 1;
+  justify-content: center;
+  min-width: 0;
+}
+
+.producto-card__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.producto-card__name {
+  font-family: var(--font-title);
+  font-size: 1.25rem;
+  color: var(--color-white);
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.producto-card__desc {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: rgba(244, 241, 234, 0.7);
+  line-height: 1.3;
+  font-style: italic;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.producto-card__badge {
+  align-self: flex-start;
+  font-family: var(--font-title);
+  font-size: 0.75rem;
+  color: var(--color-red);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(196, 30, 36, 0.15);
+  border: 1px solid rgba(196, 30, 36, 0.3);
+  padding: 0.12rem 0.35rem;
+  border-radius: var(--radius-sm);
+}
+
+.producto-card__price {
+  font-family: var(--font-title);
+  font-size: 1.45rem;
+  color: var(--color-gold);
+  text-shadow: 0 0 6px rgba(197,160,89,0.35);
+  line-height: 1;
+}
+
+.producto-card__add {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--color-red);
+  border: none;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s var(--ease-out-back);
+  box-shadow: var(--glow-red);
+  flex-shrink: 0;
+}
+
+.producto-card__add:hover {
+  transform: scale(1.12) rotate(90deg);
+  background: var(--color-gold);
+  color: var(--color-black);
+  box-shadow: 0 0 6px rgba(197, 160, 89, 0.5);
+  pointer-events: none;
+}
